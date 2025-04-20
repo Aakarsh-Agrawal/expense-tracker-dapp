@@ -42,10 +42,10 @@ contract ExpenseTracker {
         return name;
     }
 }
+```
 💻 Frontend: Display Name (JavaScript / React)
-javascript
-Copy
-Edit
+```javascript
+
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import ExpenseTrackerABI from "./abis/ExpenseTracker.json";
@@ -70,10 +70,9 @@ function DisplayName() {
 }
 
 export default DisplayName;
+```
 💱 ETH to INR Converter (JavaScript)
-javascript
-Copy
-Edit
+```javascript
 import { useEffect, useState } from "react";
 
 function EthToInrConverter() {
@@ -97,10 +96,9 @@ function EthToInrConverter() {
 }
 
 export default EthToInrConverter;
+```
 📌 Setup
-bash
-Copy
-Edit
+```bash
 # Clone the repo
 git clone https://github.com/yourusername/expense-tracker-app.git
 
